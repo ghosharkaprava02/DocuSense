@@ -1,0 +1,164 @@
+[
+  {
+    "question": "When should preprocessing statistics be fitted to prevent leakage?",
+    "unit": "page",
+    "relevant_ids": [
+      "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770:p1"
+    ],
+    "source_file": "ml_systems.pdf",
+    "source_page": 1
+  },
+  {
+    "question": "How should repeated patients be split between training and test sets?",
+    "unit": "page",
+    "relevant_ids": [
+      "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770:p1"
+    ],
+    "source_file": "ml_systems.pdf",
+    "source_page": 1
+  },
+  {
+    "question": "What is the difference between precision and recall?",
+    "unit": "page",
+    "relevant_ids": [
+      "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770:p2"
+    ],
+    "source_file": "ml_systems.pdf",
+    "source_page": 2
+  },
+  {
+    "question": "What does probability calibration mean?",
+    "unit": "page",
+    "relevant_ids": [
+      "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770:p2"
+    ],
+    "source_file": "ml_systems.pdf",
+    "source_page": 2
+  },
+  {
+    "question": "How do data drift and concept drift differ?",
+    "unit": "page",
+    "relevant_ids": [
+      "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770:p3"
+    ],
+    "source_file": "ml_systems.pdf",
+    "source_page": 3
+  },
+  {
+    "question": "What should be monitored after model deployment?",
+    "unit": "page",
+    "relevant_ids": [
+      "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770:p3"
+    ],
+    "source_file": "ml_systems.pdf",
+    "source_page": 3
+  },
+  {
+    "question": "Why does a normalized vector dot product equal cosine similarity?",
+    "unit": "page",
+    "relevant_ids": [
+      "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2:p1"
+    ],
+    "source_file": "retrieval_lab.pdf",
+    "source_page": 1
+  },
+  {
+    "question": "What are the limitations of a lexical TF-IDF baseline?",
+    "unit": "page",
+    "relevant_ids": [
+      "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2:p1"
+    ],
+    "source_file": "retrieval_lab.pdf",
+    "source_page": 1
+  },
+  {
+    "question": "Why does overlap help with chunk boundaries?",
+    "unit": "page",
+    "relevant_ids": [
+      "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2:p2"
+    ],
+    "source_file": "retrieval_lab.pdf",
+    "source_page": 2
+  },
+  {
+    "question": "Which metadata makes a passage traceable to its source?",
+    "unit": "page",
+    "relevant_ids": [
+      "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2:p2"
+    ],
+    "source_file": "retrieval_lab.pdf",
+    "source_page": 2
+  },
+  {
+    "question": "Does validating source IDs prove answer factuality?",
+    "unit": "page",
+    "relevant_ids": [
+      "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2:p3"
+    ],
+    "source_file": "retrieval_lab.pdf",
+    "source_page": 3
+  },
+  {
+    "question": "How should the application behave when local inference is unavailable?",
+    "unit": "page",
+    "relevant_ids": [
+      "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2:p3"
+    ],
+    "source_file": "retrieval_lab.pdf",
+    "source_page": 3
+  },
+  {
+    "question": "How is page-level Recall@K calculated with duplicate page results?",
+    "unit": "page",
+    "relevant_ids": [
+      "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479:p1"
+    ],
+    "source_file": "evaluation_notes.pdf",
+    "source_page": 1
+  },
+  {
+    "question": "How is MRR@5 computed when no relevant result is found?",
+    "unit": "page",
+    "relevant_ids": [
+      "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479:p1"
+    ],
+    "source_file": "evaluation_notes.pdf",
+    "source_page": 1
+  },
+  {
+    "question": "What information is needed to reproduce a retrieval experiment?",
+    "unit": "page",
+    "relevant_ids": [
+      "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479:p2"
+    ],
+    "source_file": "evaluation_notes.pdf",
+    "source_page": 2
+  },
+  {
+    "question": "Why can warm caches affect index timing comparisons?",
+    "unit": "page",
+    "relevant_ids": [
+      "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479:p2"
+    ],
+    "source_file": "evaluation_notes.pdf",
+    "source_page": 2
+  },
+  {
+    "question": "What does a nearest-centroid representative passage mean?",
+    "unit": "page",
+    "relevant_ids": [
+      "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479:p3"
+    ],
+    "source_file": "evaluation_notes.pdf",
+    "source_page": 3
+  },
+  {
+    "question": "When is silhouette score mathematically valid?",
+    "unit": "page",
+    "relevant_ids": [
+      "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479:p3"
+    ],
+    "source_file": "evaluation_notes.pdf",
+    "source_page": 3
+  }
+]

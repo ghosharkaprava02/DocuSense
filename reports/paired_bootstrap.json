@@ -1,0 +1,27 @@
+{
+  "method": "5000 paired question resamples; seed 42; percentile interval",
+  "limitation": "Small authored development set; related questions violate independence. Intervals describe sensitivity to these questions, not generalization or causality.",
+  "results": [
+    {
+      "chunk_words": 80,
+      "questions": 18,
+      "mrr_difference_dense_minus_tfidf": 0.0925925925925926,
+      "bootstrap_95_low": 0.0,
+      "bootstrap_95_high": 0.24074074074074078
+    },
+    {
+      "chunk_words": 160,
+      "questions": 18,
+      "mrr_difference_dense_minus_tfidf": 0.0925925925925926,
+      "bootstrap_95_low": 0.0,
+      "bootstrap_95_high": 0.24074074074074078
+    },
+    {
+      "chunk_words": 220,
+      "questions": 18,
+      "mrr_difference_dense_minus_tfidf": 0.0925925925925926,
+      "bootstrap_95_low": 0.0,
+      "bootstrap_95_high": 0.24074074074074078
+    }
+  ]
+}

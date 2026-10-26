@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label": "DocuSense: run", "type": "shell", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "streamlit", "run", "app.py"], "problemMatcher": []},
+    {"label": "DocuSense: test", "type": "shell", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["-m", "pytest", "-q"], "group": "test", "problemMatcher": []},
+    {"label": "DocuSense: benchmark", "type": "shell", "command": "${workspaceFolder}/.venv/Scripts/python.exe", "args": ["scripts/benchmark.py"], "problemMatcher": []}
+  ]
+}

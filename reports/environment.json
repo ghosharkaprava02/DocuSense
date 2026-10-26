@@ -1,0 +1,12 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "corpus": {
+    "evaluation_notes.pdf": "972c8bcff7afd1a24f066f8df12d4c6ea331c1303bb90720f4a1c7913ba44479",
+    "ml_systems.pdf": "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770",
+    "retrieval_lab.pdf": "44cbadf1bcf59b80c037246dcd3f8d5eab3bf95c0c83b7f4a634c4e8691a4ec2"
+  },
+  "seed": 42,
+  "note": "Development demo set; page labels may be incomplete; no generation quality measured."
+}

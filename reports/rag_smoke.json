@@ -1,0 +1,55 @@
+{
+  "question": "What is the difference between data drift and concept drift?",
+  "retrieval_engine": "semantic",
+  "retrieval_ms": 775.5209000024479,
+  "answer": {
+    "text": "Data drift refers to changes in the distribution of inputs, while concept drift refers to changes in the relationship between inputs and the target. [S1] [S2] [S3]",
+    "status": "generated",
+    "citations": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "generation_ms": 12995.657699997537,
+    "message": "Source IDs verified. Claim support still requires human review."
+  },
+  "evidence": [
+    {
+      "chunk": {
+        "id": "1f06a6a664ebf1d1dd90db1d",
+        "document_id": "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770",
+        "filename": "ml_systems.pdf",
+        "page": 3,
+        "text": "DOCUSENSE / ORIGINAL DEMO CORPUS Monitoring after deployment Monitor input feature distributions, missing-value rates, inference latency, and model errors after deployment. Data drift describes changes in the distribution of inputs. Concept drift describes changes in the relationship between inputs and the target. A change in inputs alone does not prove that predictive quality has degraded. Compare reference and recent windows using distribution summaries, population stability measures, or statistical tests. These are alerts for investigation, not automatic proof that retraining is needed. Once delayed labels become available, calculate performance on recent observations and compare with the training-era evaluation. Log the model version and preprocessing version with each inference. Establish an alert owner and a rollback path. Retraining should pass the same validation checks as the original model. Monitoring without a response process provides little operational value. Original educational content. Development evaluation only. 3",
+        "start_word": 0,
+        "end_word": 142
+      },
+      "score": 0.38220077753067017
+    },
+    {
+      "chunk": {
+        "id": "db928a12d2145f46e1ed124f",
+        "document_id": "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770",
+        "filename": "ml_systems.pdf",
+        "page": 1,
+        "text": "DOCUSENSE / ORIGINAL DEMO CORPUS Reliable training data The training set teaches model parameters, the validation set guides model selection, and the test set estimates final performance. Split the dataset before learning any preprocessing statistics. Fit imputation, scaling, and feature selection on the training partition only. Reuse those fitted transformations for validation and test examples. Leakage occurs when information unavailable at prediction time enters model development. A patient appearing in both training and test records can leak identity. Use group-aware splitting for repeated entities. For forecasting, train on earlier observations and evaluate on later observations. A random split may produce an optimistic estimate when temporal dependence is present. Record dataset provenance, label definitions, missing-value rates, class frequencies, and the split seed. Inspect anomalous records before removing them. Compare a simple baseline before developing a complex model. A held-out test set should remain untouched until the model selection process is complete. Original educational content. Development evaluation only. 1",
+        "start_word": 0,
+        "end_word": 157
+      },
+      "score": 0.21405476331710815
+    },
+    {
+      "chunk": {
+        "id": "27df035b437a211300f49605",
+        "document_id": "7b5a158b064d94448db864b66e30022e139c9fd746738acd445f7d2f15c0d770",
+        "filename": "ml_systems.pdf",
+        "page": 2,
+        "text": "Inspect calibration curves when predicted probabilities drive decisions. Discrimination and calibration answer different questions. Report both where appropriate, and document the dataset used for each measurement. Original educational content. Development evaluation only. 2",
+        "start_word": 130,
+        "end_word": 163
+      },
+      "score": 0.21395033597946167
+    }
+  ],
+  "limitation": "Single smoke example; source ID validation is not a factuality benchmark."
+}
