@@ -39,7 +39,7 @@ flowchart LR
     Validate --> UI[Streamlit workstation]
     Evidence --> UI
     Dense --> Analytics[K-Means / PCA / silhouette]
-    Search --> Eval[Recall@K / MRR@5 / latency]
+    Search --> Eval["Recall@K / MRR@5 / latency"]
     Labels[Reviewed labels] --> Eval
 ```
 
